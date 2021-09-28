@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty & Healthy Foods||Health's_Kitchen</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+    rel="stylesheet"
+    media="screen and (max-width: 1300px)"
+    href="CSS/phone.css"
+  />
+  <!--this phone.css will trigger when the site's width is less than 1300px-->
+  <!--ALWAYS PUT RESPONSIVE STYLE-SHEET AFTER ORIGINAL STYLE SHEET OR ELSE IT WILL NOT TRIGGER-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="img/Logo3.jpg" width="70" alt="Health_kitchen" />
+      </div>
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#services-container">Services</a></li>
+        <li class="item"><a href="#about_us">About Us</a></li>
+        <li class="item"><a href="#contact">Contact Us</a></li>
+        <li class="item"><a href="#track">Track Order</a></li>
+      </ul>
+      <!--add the class name or id name in the reference part to link different parts of the page-->
+    </nav>
+    <section id="home">
+      <h1 class="header">Welcome to Health's_Kitchen</h1>
+      <p>
+        The place where you can find every type of food of your desire.<br />
+        From Indian curry to Italian pastas, from Chinese momos to fruit
+        deserts, you will get all. Just ask for it, and the rest is our job.<br />
+        "And you know good food can also change your moods too".
+      </p>
+      <button id="button1">Order Now</button>
+    </section>
+    <section id="services-container">
+      <h1 class="header center">Our Services</h1>
+      <div id="service">
+        <div class="box">
+          <img src="img/buffet.jpg" />
+          <h2 class="header-secondary center">Buffet</h2>
+          <p class="center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+            dignissimos in magni natus fugiat sunt voluptatum eos, quos qui
+            illum saepe. Nesciunt necessitatibus animi maxime commodi voluptatum
+            ad. Dignissimos, perspiciatis?
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/candle_light.jpg" />
+          <h2 class="header-secondary center">Candle Light Dining</h2>
+          <p class="center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+            dignissimos in magni natus fugiat sunt voluptatum eos, quos qui
+            illum saepe. Nesciunt necessitatibus animi maxime commodi voluptatum
+            ad. Dignissimos, perspiciatis?
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/Casual_dinig.jpg" />
+          <h2 class="header-secondary center">Casual Dining</h2>
+          <p class="center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+            dignissimos in magni natus fugiat sunt voluptatum eos, quos qui
+            illum saepe. Nesciunt necessitatibus animi maxime commodi voluptatum
+            ad. Dignissimos, perspiciatis?
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/Home-Delivery-Food-Flyer-Template-2.jpg" />
+          <h2 class="header-secondary center">Home Delivery</h2>
+          <p class="center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+            dignissimos in magni natus fugiat sunt voluptatum eos, quos qui
+            illum saepe. Nesciunt necessitatibus animi maxime commodi voluptatum
+            ad. Dignissimos, perspiciatis?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="about_us">
+      <h1 class="header center">About Us</h1>
+      <div id="about">
+        <div class="about-items">
+          <ul>
+            <li>
+              <img src="img/abt1.png" width="40" />
+              <h3 class="header-third">
+                Cuisine: North Indian, Barbeque, Seafood and Continental.
+              </h3>
+            </li>
+            <li>
+              <img src="img/abt2.png" width="40" />
+              <h3 class="header-third">
+                Type: Buffet, Lunch Buffet, Dinner Buffet, Dineout Pay, Casual
+                Dining, Drinks and Kolkata Operational.
+              </h3>
+            </li>
+            <li>
+              <img src="img/abt3.png" width="40" />
+              <h3 class="header-third">Average Cost: 1200 for two.</h3>
+            </li>
+            <li>
+              <img src="img/abt4.png" width="40" />
+              <h3 class="header-third">
+                Location: <a id="direction" href="#">Get Direction.</a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="header center">Contact Us</h1>
+      <div id="contact-box">
+        <form action="">
+          <div class="form-grp">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-grp">
+            <label for="phone">Phone Number</label>
+            <input
+              type="phone"
+              name="name"
+              id="phone"
+              placeholder="Enter your phone number"
+            />
+          </div>
+          <div class="form-grp">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="name"
+              id="email"
+              placeholder="Enter your E-mail"
+            />
+          </div>
+          <div class="form-grp">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </form>
+        <button id="button2">Submit</button>
+      </div>
+    </section>
+    <section id="track">
+      <h1 class="header center">Track Order</h1>
+      <div id="track-box">
+        <form action="">
+          <div class="form-grp">
+            <label for="number">Please enter your order reference number to track it.</label>
+            <input
+              type="number"
+              name="name"
+              id="number"
+              placeholder="Enter your Order reference number."
+            />
+          </div>
+          <button id="button3">Track it</button>
+    </section>
+    <footer>
+      <div class="center">
+        Copyright &copy; www.healths_kitchen.com || All rights reserved.
+      </div>
+      <!--&copy; will print the copyright symbol in the page-->
+    </footer>
+  </body>
+</html>

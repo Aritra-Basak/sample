@@ -1,0 +1,72 @@
+/*navigation*/
+#navbar {
+  flex-direction: column;
+}
+#navbar ul li a {
+  font-size: 1rem;
+  padding: 0px 5px;
+}
+/*home*/
+#home {
+  height: 280px;
+  padding: 3px 20px;
+}
+#home::before {
+  height: 400px;
+}
+#home p {
+  font-size: 13px;
+}
+/*services*/
+#service {
+  flex-direction: column;
+}
+#service .box {
+  padding: 14px;
+  margin: 2px 0px;
+}
+#service .box img {
+  height: 130px;
+}
+#service .box p {
+  font-size: 0.8rem;
+}
+/*about us*/
+#about h3 {
+  font-size: 0.9rem;
+}
+#about img {
+  height: 30px;
+  width: 30px;
+}
+/*contact us*/
+#contact-box form {
+  width: 75%;
+}
+/*track us*/
+#track form {
+  width: 65%;
+}
+#track label {
+  font-size: 0.8rem;
+}
+/*footer*/
+footer {
+  font-size: 0.7rem;
+}
+/*utility classes*/
+.header {
+  font-size: 26px;
+}
+#button1 {
+  font-size: 13px;
+  padding: 4px 8px;
+}
+#button2 {
+  font-size: 13px;
+  padding: 4px 8px;
+}
+#button3 {
+  font-size: 13px;
+  padding: 4px 8px;
+}
