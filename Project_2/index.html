@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DTime Zone</title>
+    <script>
+      let date;
+      let a;
+      let time;
+      setInterval(() => {
+        a = new Date();
+        date = a.toLocaleDateString();
+        time = a.getHours() + ":" + a.getMinutes() + ":" + a.getSeconds();
+        document.getElementById("time").innerHTML = time + " on " + date;
+        if(a.getMonth()==0)
+        {
+          document.getElementById("mon").innerHTML="It's Jan"; /*Jan starts from 0*/
+        }
+        if(a.getMonth()==1)
+        {
+          document.getElementById("mon").innerHTML="It's Feb";
+        }if(a.getMonth()==2)
+        {
+          document.getElementById("mon").innerHTML="It's March";
+        }if(a.getMonth()==3)
+        {
+          document.getElementById("mon").innerHTML="It's April";
+        }if(a.getMonth()==4)
+        {
+          document.getElementById("mon").innerHTML="It's May";
+        }if(a.getMonth()==5)
+        {
+          document.getElementById("mon").innerHTML="It's June";
+        }if(a.getMonth()==6)
+        {
+          document.getElementById("mon").innerHTML="It's July";
+        }if(a.getMonth()==7)
+        {
+          document.getElementById("mon").innerHTML="It's August";
+        }if(a.getMonth()==8)
+        {
+          document.getElementById("mon").innerHTML="It's September";
+        }if(a.getMonth()==9)
+        {
+          document.getElementById("mon").innerHTML="It's Oct";
+        }if(a.getMonth()==10)
+        {
+          document.getElementById("mon").innerHTML="It's November";
+        }if(a.getMonth()==11)
+        {
+          document.getElementById("mon").innerHTML="It's December";
+        }
+      }, 1000);
+      
+        
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Browse</a></li>
+          <li><a href="#">Search </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+    <h2>Welcome to Time Site</h2>      
+      <h1>Current time is : <span id="time"></span></h1>
+      <p>Welcome to our site, we will show you different country's time</p>
+      <button id="btn">Browse</button>
+      <span id="mon"></span>
+    </div>
+  </body>
+</html>

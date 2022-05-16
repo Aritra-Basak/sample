@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar li a {
+  padding: 2px 50px;
+  text-decoration: none;
+  cursor: pointer;
+  color: brown;
+}
+ul {
+  display: flex;
+}
+li:nth-child(4) {
+  border: 2px solid rgb(231, 132, 132);
+  position: relative;
+  left: 450px;
+  top: 0px;
+  background-color: rgba(230, 100, 200, 0.4);
+  border-radius: 5px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 150px 10px;
+  text-align: center;
+  background-color: burlywood;
+  margin-left: 500px;
+  margin-top: 25px;
+  width: 40%;
+}
+.container p {
+  position: relative;
+  top: -100px;
+  left: -227px;
+  padding: 10px 10px;
+  color: brown;
+  font-size: 12px;
+}
+.container h2 {
+  position: relative;
+  top: -140px;
+  left: 185px;
+  animation-name: colour;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes colour {
+  0% {
+    color: aqua;
+  }
+  25% {
+    color: blueviolet;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: brown;
+  }
+  100% {
+    color: ghostwhite;
+  }
+}
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0px; /*always give top and left values with position absolute*/
+  left: 211px;
+  background-color: grey;
+  height: 5%;
+  width: 80%;
+  z-index: -1;
+  opacity: 0.4;
+}
+.container::before {
+  background: url(pexels-pixabay-48770.jpg);
+  content: " ";
+  position: absolute;
+  top: -62px;
+  left: -20px;
+  width: 101%;
+  height: 1037px;
+  z-index: -1;
+  opacity: 0.5;
+}
+.container h1 {
+  font-size: 20px;
+  position: relative;
+  top: 18px;
+  left: -155px;
+}
+#btn {
+  border-radius: 9px;
+  font-size: small;
+  padding: 2px 2px;
+  position: relative;
+  top: 135px;
+  right: 10px;
+  background-color: rgba(105, 103, 231, 0.315);
+  border-color: rgb(73, 73, 199);
+  color: firebrick;
+}
+span {
+  font-size: 31px;
+  position: absolute;
+  top: -19px;
+  left: 161px;
+}
+#mon{
+  top: 323px;
+  left: 607px;
+  color: rgb(0, 19, 128);
+  font-size: small;
+}
+
